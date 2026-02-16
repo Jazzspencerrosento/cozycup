@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Harbor Brews | Local Coffee & Comfort</title>
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <nav class="nav container" aria-label="Primary navigation">
+        <a class="brand" href="#home">
+          <img src="img/logo.png" alt="Harbor Brews Logo" class="brand__logo" />
+          <span class="brand__name">Harbor Brews</span>
+        </a>
+
+        <ul class="nav__links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#about">Our Story</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section id="home" class="hero" aria-label="Hero">
+        <div class="hero__overlay"></div>
+        <div class="hero__content container">
+          <p class="hero__kicker">Palawan grown • Expertly roasted</p>
+          <h1>Better Coffee for Brighter Days</h1>
+          <p>Savor every sip expertly brewed, locally sourced, and made for the moment.</p>
+
+          <div class="hero__actions">
+            <a href="#menu" class="btn btn--primary">View Menu</a>
+            <a href="#about" class="btn btn--ghost">Learn More</a>
+          </div>
+
+          <div class="hero__meta" aria-label="Quick info">
+            <div class="pill">Open Daily: 7 AM – 10 PM</div>
+            <div class="pill">Near the City Baywalk</div>
+            <div class="pill">Free Wi-Fi Available</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="menu" class="section">
+        <div class="container">
+          <div class="section__head">
+            <h2>Our Selection</h2>
+            <p>Quality beans meets artisanal preparation.</p>
+          </div>
+
+          <div class="grid">
+            <article class="card">
+              <img src="img/latte.jpg" alt="Signature Latte" class="card__img" />
+              <div class="card__content">
+                <div class="card__top">
+                  <h3>Signature Latte</h3>
+                  <span class="price">₱125</span>
+                </div>
+                <p>Double shot espresso with velvety steamed milk.</p>
+                <div class="tags">
+                  <span class="tag">Hot</span><span class="tag">Signature</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="card">
+              <img src="img/Sea Salt Caramel.jpg" alt="Sea Salt Caramel" class="card__img" />
+              <div class="card__content">
+                <div class="card__top">
+                  <h3>Sea Salt Caramel</h3>
+                  <span class="price">₱145</span>
+                </div>
+                <p>Bold cold brew topped with creamy salt-kissed foam.</p>
+                <div class="tags">
+                  <span class="tag">Cold</span><span class="tag">Favorite</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="card">
+              <img src="img/Dark Cocoa Mocha.jpg" alt="Dark Cocoa Mocha" class="card__img" />
+              <div class="card__content">
+                <div class="card__top">
+                  <h3>Dark Cocoa Mocha</h3>
+                  <span class="price">₱155</span>
+                </div>
+                <p>Rich local chocolate blended with espresso.</p>
+                <div class="tags">
+                  <span class="tag">Hot/Cold</span><span class="tag">Rich</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="card">
+              <img src="img/Toasted Cinnamon Roll.jpg" alt="Toasted Cinnamon Roll" class="card__img" />
+              <div class="card__content">
+                <div class="card__top">
+                  <h3>Toasted Cinnamon Roll</h3>
+                  <span class="price">₱95</span>
+                </div>
+                <p>Baked fresh daily with a light sugar glaze.</p>
+                <div class="tags">
+                  <span class="tag">Pastry</span><span class="tag">Fresh</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section section--alt">
+        <div class="container">
+          <div class="section__head">
+            <h2>Our Story</h2>
+            <p>
+              Harbor Brews started with a simple goal: to provide the community with 
+              high-quality, locally sourced coffee.
+            </p>
+          </div>
+
+          <div class="about__stats">
+            <div class="stat">
+              <div class="stat__num">100%</div>
+              <div class="stat__label">Arabica Beans</div>
+            </div>
+            <div class="stat">
+              <div class="stat__num">Imported</div>
+              <div class="stat__label">Sourced Produce in Baguio </div>
+            </div>
+            <div class="stat">
+              <div class="stat__num">One of The Most Rated Shop in Palawan</div>
+              <div class="stat__label">Most Recommended</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section section--dark">
+        <div class="container">
+          <div class="section__head">
+            <h2>Get in Touch</h2>
+            <p>Reach out for bulk orders or general inquiries.</p>
+          </div>
+
+          <div class="contact__grid">
+            <div class="contact__card">
+              <h3>Information</h3>
+              <p><strong>Phone:</strong> 0998-765-4321</p>
+              <p><strong>Email:</strong> hello@harborbrews.ph</p>
+              <p><strong>Address:</strong> Rizal Avenue, Puerto Princesa City</p>
+            </div>
+
+            <form class="contact__card" aria-label="Contact form">
+              <h3>Send a Message</h3>
+              <input type="text" placeholder="Full Name" required />
+              <input type="email" placeholder="Email Address" required />
+              <textarea rows="4" placeholder="How can we help?" required></textarea>
+              <button class="btn btn--primary" type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container site-footer__inner">
+        <p>&copy; 2026 Harbor Brews. All rights reserved.</p>
+        <p class="muted">Brewed with passion in Palawan.</p>
+      </div>
+    </footer>
+  </body>
+</html>
