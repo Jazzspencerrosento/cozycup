@@ -60,7 +60,9 @@ Cozy Cup Cafe is a professional, responsive web application designed for a local
 
 <a href="[https://github.com/Jazzspencerrosento](https://www.google.com/search?q=https://github.com/Jazzspencerrosento)">
 <img src="[https://raw.githubusercontent.com/gauravghongde/social-icons/master/set/color/github.png](https://www.google.com/search?q=https://raw.githubusercontent.com/gauravghongde/social-icons/master/set/color/github.png)" width="30" alt="GitHub">
+  https://github.com/Jazzspencerrosento/cozycup.git
 </a>
 <a href="[https://facebook.com/Jazzspencerrosento](https://www.google.com/search?q=https://facebook.com/Jazzspencerrosento)">
 <img src="[https://raw.githubusercontent.com/gauravghongde/social-icons/master/set/color/facebook.png](https://www.google.com/search?q=https://raw.githubusercontent.com/gauravghongde/social-icons/master/set/color/facebook.png)" width="30" alt="Facebook">
+  https://www.facebook.com/jazzspencerrosento
 </a>
